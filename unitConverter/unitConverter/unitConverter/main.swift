@@ -186,6 +186,3 @@ struct Convert {
 }
 var convertUnit = Convert(inputDic: [String : String]())
 convertUnit.getValue()
-
-
-
