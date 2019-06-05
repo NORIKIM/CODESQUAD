@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7F97E121AD182300980C60 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97E021AD182300980C60 /* main.swift */; };
+		3C7F97E821AD2CED00980C60 /* ANSICode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97E721AD2CED00980C60 /* ANSICode.swift */; };
+		3C7F97EA21AD397100980C60 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97E921AD397100980C60 /* InputView.swift */; };
+		3C7F97EC21AFB75B00980C60 /* MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97EB21AFB75B00980C60 /* MyPoint.swift */; };
+		3C7F97EE21AFC77F00980C60 /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97ED21AFC77F00980C60 /* OutputView.swift */; };
+		3CC06C0521CA0EA30056F462 /* MyTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC06C0421CA0EA30056F462 /* MyTriangle.swift */; };
+		3CC06C0721CB6E690056F462 /* MyRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC06C0621CB6E690056F462 /* MyRect.swift */; };
+		3CC06C1B21D33F230056F462 /* UnitTestCheckInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC06C1A21D33F230056F462 /* UnitTestCheckInput.swift */; };
+		3CC06C2021D340990056F462 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97E021AD182300980C60 /* main.swift */; };
+		3CC06C2121D340990056F462 /* ANSICode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97E721AD2CED00980C60 /* ANSICode.swift */; };
+		3CC06C2221D340990056F462 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97E921AD397100980C60 /* InputView.swift */; };
+		3CC06C2321D340990056F462 /* Procol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB814021BCF7C80003C42E /* Procol.swift */; };
+		3CC06C2421D340990056F462 /* CheckInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB813A21B55BA80003C42E /* CheckInput.swift */; };
+		3CC06C2521D340990056F462 /* FigureCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE35D3421C3CAF600DA3B60 /* FigureCreate.swift */; };
+		3CC06C2621D340990056F462 /* MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97EB21AFB75B00980C60 /* MyPoint.swift */; };
+		3CC06C2721D340990056F462 /* MyLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB813C21B65DC00003C42E /* MyLine.swift */; };
+		3CC06C2821D340990056F462 /* MyTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC06C0421CA0EA30056F462 /* MyTriangle.swift */; };
+		3CC06C2921D340990056F462 /* MyRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC06C0621CB6E690056F462 /* MyRect.swift */; };
+		3CC06C2A21D340990056F462 /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F97ED21AFC77F00980C60 /* OutputView.swift */; };
+		3CC06C2C21D5FBE10056F462 /* UnitTestFigureCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC06C2B21D5FBE10056F462 /* UnitTestFigureCreate.swift */; };
+		3CDB813B21B55BA80003C42E /* CheckInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB813A21B55BA80003C42E /* CheckInput.swift */; };
+		3CDB813D21B65DC00003C42E /* MyLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB813C21B65DC00003C42E /* MyLine.swift */; };
+		3CDB814121BCF7C80003C42E /* Procol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB814021BCF7C80003C42E /* Procol.swift */; };
+		3CE35D3521C3CAF600DA3B60 /* FigureCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE35D3421C3CAF600DA3B60 /* FigureCreate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C7F97DB21AD182300980C60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C7F97DD21AD182300980C60 /* coordinateCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coordinateCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7F97E021AD182300980C60 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3C7F97E721AD2CED00980C60 /* ANSICode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANSICode.swift; sourceTree = "<group>"; };
+		3C7F97E921AD397100980C60 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		3C7F97EB21AFB75B00980C60 /* MyPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPoint.swift; sourceTree = "<group>"; };
+		3C7F97ED21AFC77F00980C60 /* OutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputView.swift; sourceTree = "<group>"; };
+		3CC06C0421CA0EA30056F462 /* MyTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTriangle.swift; sourceTree = "<group>"; };
+		3CC06C0621CB6E690056F462 /* MyRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRect.swift; sourceTree = "<group>"; };
+		3CC06C1821D33F230056F462 /* UnitTestCoordinateCalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestCoordinateCalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC06C1A21D33F230056F462 /* UnitTestCheckInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestCheckInput.swift; sourceTree = "<group>"; };
+		3CC06C1C21D33F230056F462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC06C2B21D5FBE10056F462 /* UnitTestFigureCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestFigureCreate.swift; sourceTree = "<group>"; };
+		3CDB813A21B55BA80003C42E /* CheckInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInput.swift; sourceTree = "<group>"; };
+		3CDB813C21B65DC00003C42E /* MyLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLine.swift; sourceTree = "<group>"; };
+		3CDB814021BCF7C80003C42E /* Procol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procol.swift; sourceTree = "<group>"; };
+		3CE35D3421C3CAF600DA3B60 /* FigureCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureCreate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7F97DA21AD182300980C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC06C1521D33F230056F462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7F97D421AD182300980C60 = {
+			isa = PBXGroup;
+			children = (
+				3C7F97DF21AD182300980C60 /* coordinateCalculator */,
+				3CC06C1921D33F230056F462 /* UnitTestCoordinateCalculator */,
+				3C7F97DE21AD182300980C60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7F97DE21AD182300980C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7F97DD21AD182300980C60 /* coordinateCalculator */,
+				3CC06C1821D33F230056F462 /* UnitTestCoordinateCalculator.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7F97DF21AD182300980C60 /* coordinateCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				3C7F97E021AD182300980C60 /* main.swift */,
+				3C7F97E721AD2CED00980C60 /* ANSICode.swift */,
+				3C7F97E921AD397100980C60 /* InputView.swift */,
+				3CDB814021BCF7C80003C42E /* Procol.swift */,
+				3CDB813A21B55BA80003C42E /* CheckInput.swift */,
+				3CE35D3421C3CAF600DA3B60 /* FigureCreate.swift */,
+				3C7F97EB21AFB75B00980C60 /* MyPoint.swift */,
+				3CDB813C21B65DC00003C42E /* MyLine.swift */,
+				3CC06C0421CA0EA30056F462 /* MyTriangle.swift */,
+				3CC06C0621CB6E690056F462 /* MyRect.swift */,
+				3C7F97ED21AFC77F00980C60 /* OutputView.swift */,
+			);
+			path = coordinateCalculator;
+			sourceTree = "<group>";
+		};
+		3CC06C1921D33F230056F462 /* UnitTestCoordinateCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				3CC06C1A21D33F230056F462 /* UnitTestCheckInput.swift */,
+				3CC06C2B21D5FBE10056F462 /* UnitTestFigureCreate.swift */,
+				3CC06C1C21D33F230056F462 /* Info.plist */,
+			);
+			path = UnitTestCoordinateCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7F97DC21AD182300980C60 /* coordinateCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7F97E421AD182300980C60 /* Build configuration list for PBXNativeTarget "coordinateCalculator" */;
+			buildPhases = (
+				3C7F97D921AD182300980C60 /* Sources */,
+				3C7F97DA21AD182300980C60 /* Frameworks */,
+				3C7F97DB21AD182300980C60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coordinateCalculator;
+			productName = coordinateCalculator;
+			productReference = 3C7F97DD21AD182300980C60 /* coordinateCalculator */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CC06C1721D33F230056F462 /* UnitTestCoordinateCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC06C1D21D33F230056F462 /* Build configuration list for PBXNativeTarget "UnitTestCoordinateCalculator" */;
+			buildPhases = (
+				3CC06C1421D33F230056F462 /* Sources */,
+				3CC06C1521D33F230056F462 /* Frameworks */,
+				3CC06C1621D33F230056F462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTestCoordinateCalculator;
+			productName = UnitTestCoordinateCalculator;
+			productReference = 3CC06C1821D33F230056F462 /* UnitTestCoordinateCalculator.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7F97D521AD182300980C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "JINA KIM";
+				TargetAttributes = {
+					3C7F97DC21AD182300980C60 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3CC06C1721D33F230056F462 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C7F97D821AD182300980C60 /* Build configuration list for PBXProject "coordinateCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C7F97D421AD182300980C60;
+			productRefGroup = 3C7F97DE21AD182300980C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7F97DC21AD182300980C60 /* coordinateCalculator */,
+				3CC06C1721D33F230056F462 /* UnitTestCoordinateCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC06C1621D33F230056F462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7F97D921AD182300980C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7F97EE21AFC77F00980C60 /* OutputView.swift in Sources */,
+				3CC06C0721CB6E690056F462 /* MyRect.swift in Sources */,
+				3C7F97EC21AFB75B00980C60 /* MyPoint.swift in Sources */,
+				3CDB813B21B55BA80003C42E /* CheckInput.swift in Sources */,
+				3C7F97EA21AD397100980C60 /* InputView.swift in Sources */,
+				3C7F97E121AD182300980C60 /* main.swift in Sources */,
+				3CC06C0521CA0EA30056F462 /* MyTriangle.swift in Sources */,
+				3CDB813D21B65DC00003C42E /* MyLine.swift in Sources */,
+				3CDB814121BCF7C80003C42E /* Procol.swift in Sources */,
+				3C7F97E821AD2CED00980C60 /* ANSICode.swift in Sources */,
+				3CE35D3521C3CAF600DA3B60 /* FigureCreate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC06C1421D33F230056F462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC06C2021D340990056F462 /* main.swift in Sources */,
+				3CC06C2121D340990056F462 /* ANSICode.swift in Sources */,
+				3CC06C2C21D5FBE10056F462 /* UnitTestFigureCreate.swift in Sources */,
+				3CC06C2221D340990056F462 /* InputView.swift in Sources */,
+				3CC06C2321D340990056F462 /* Procol.swift in Sources */,
+				3CC06C2421D340990056F462 /* CheckInput.swift in Sources */,
+				3CC06C2521D340990056F462 /* FigureCreate.swift in Sources */,
+				3CC06C2621D340990056F462 /* MyPoint.swift in Sources */,
+				3CC06C2721D340990056F462 /* MyLine.swift in Sources */,
+				3CC06C2821D340990056F462 /* MyTriangle.swift in Sources */,
+				3CC06C2921D340990056F462 /* MyRect.swift in Sources */,
+				3CC06C2A21D340990056F462 /* OutputView.swift in Sources */,
+				3CC06C1B21D33F230056F462 /* UnitTestCheckInput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C7F97E221AD182300980C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C7F97E321AD182300980C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C7F97E521AD182300980C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3C7F97E621AD182300980C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		3CC06C1E21D33F230056F462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnitTestCoordinateCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jina.UnitTestCoordinateCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3CC06C1F21D33F230056F462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnitTestCoordinateCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jina.UnitTestCoordinateCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7F97D821AD182300980C60 /* Build configuration list for PBXProject "coordinateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7F97E221AD182300980C60 /* Debug */,
+				3C7F97E321AD182300980C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7F97E421AD182300980C60 /* Build configuration list for PBXNativeTarget "coordinateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7F97E521AD182300980C60 /* Debug */,
+				3C7F97E621AD182300980C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC06C1D21D33F230056F462 /* Build configuration list for PBXNativeTarget "UnitTestCoordinateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC06C1E21D33F230056F462 /* Debug */,
+				3CC06C1F21D33F230056F462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7F97D521AD182300980C60 /* Project object */;
+}
