@@ -25,13 +25,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         beverageCollection.dataSource = self
         
         vending.beverageListUp()
-        currentBalance.text = "잔액 : " + String(vending.currentBalance()) + " ₩"
+        
     }
     
     // MARK: IBAction
     @IBAction func insertMoney(_ sender: UIButton) {
-        let balance = vending.insertMoney(sender.tag)
-        
+        let priceStr = sender.titleLabel?.text
+        let price = priceStr!.components(separatedBy: [",","₩"," "]).joined()
+        vending.insertMoney(Int(price)!)
+        currentBalance.text = "잔액 : " + String(vending.currentBalance()) + " ₩"
     }
     
     @IBAction func beverageAdd(_ sender: UIButton) {
@@ -46,6 +48,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let selectBeverage = beverage[sender.tag]
         vending.buyBeverage(selectBeverage)
         reloadBeverageCell(at: sender.tag)
+        currentBalance.text = "잔액 : " + String(vending.currentBalance()) + " ₩"
     }
     
     // MARK: objc
