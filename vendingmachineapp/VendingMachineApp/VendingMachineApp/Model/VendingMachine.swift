@@ -33,11 +33,7 @@ struct VendingMachine {
     }
     
     mutating func insertMoney(_ priceBtn: Int) {
-        if priceBtn == 0 {
-             money.insert(money: 1000)
-        } else {
-            money.insert(money: 5000)
-        }
+        money.insert(money: priceBtn)
     }
     
     mutating func addBeverage(_ select: Beverage) {
