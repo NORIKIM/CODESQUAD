@@ -29,7 +29,6 @@ struct Inventory {
     
     // 음료 차감
     mutating func subtract(_ select: Beverage) {
-        print(list)
         self.list[select] = self.list[select]! - 1
     }
 }
