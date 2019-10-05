@@ -26,6 +26,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         vending.beverageListUp()
         
+        NotificationCenter.default.addObserver(self, selector: #selector(pressedBuyBtn(_:)), name: .buyButton, object: nil)
     }
     
     // MARK: IBAction
@@ -44,17 +45,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     @IBAction func beverageBuy(_ sender: UIButton) {
-        let beverage = vending.kindOfBeverage()
-        let selectBeverage = beverage[sender.tag]
-        vending.buyBeverage(selectBeverage)
-        reloadBeverageCell(at: sender.tag)
-        currentBalance.text = "잔액 : " + String(vending.currentBalance()) + " ₩"
+        tag = sender.tag
+        NotificationCenter.default.post(name: .buyButton, object: nil)
     }
     
     // MARK: objc
     @objc func pressedBuyBtn(_ notification: Notification) {
-        //let beverage = inventory.allBeverages[tag]
-        //vending.updateVendingMachineState(beverage)
+        let beverage = vending.kindOfBeverage()
+        let selectBeverage = beverage[tag]
+        vending.buyBeverage(selectBeverage)
+        reloadBeverageCell(at: tag)
+        currentBalance.text = "잔액 : " + String(vending.currentBalance()) + " ₩"
     }
 
     // MARK: collectionView
