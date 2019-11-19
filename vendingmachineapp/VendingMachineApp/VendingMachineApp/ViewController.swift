@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     // MARK: Property
     private var vending = VendingMachine()
-    var tag = 0
+    private var tag = 0
     
     // MARK: IBOutlet
     @IBOutlet weak var beverageCollection: UICollectionView!
@@ -27,6 +27,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         vending.beverageListUp()
         
         NotificationCenter.default.addObserver(self, selector: #selector(pressedBuyBtn(_:)), name: .buyButton, object: nil)
+        //currentBalance.text = UserDefaults.standard.string(forKey: "currentBalance")
     }
     
     // MARK: IBAction
@@ -35,6 +36,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let price = priceStr!.components(separatedBy: [",","₩"," "]).joined()
         vending.insertMoney(Int(price)!)
         currentBalance.text = "잔액 : " + String(vending.currentBalance()) + " ₩"
+        //UserDefaults.standard.set(currentBalance.text, forKey: "currentBalance")
     }
     
     @IBAction func beverageAdd(_ sender: UIButton) {
