@@ -15,4 +15,5 @@
 
 - 구조체의 사용이 좀더 능숙해짐
 
-  
+<img width="430" src="https://user-images.githubusercontent.com/31604976/71470430-70c80a80-280f-11ea-9659-4555ce8c3821.png">
+<img width="474" src="https://user-images.githubusercontent.com/31604976/71470473-93f2ba00-280f-11ea-9074-bddd9756a539.png">
