@@ -30,8 +30,8 @@ struct ResultView {
     }
     
     // 사다리 모양 완성시키기 - 메인
-    func makeLadder(_ player: Int, _ ladderHeight:Int) {
-        let readyFootBoard = LadderGame(height: InputView().getLadderHeight(), names: InputView().getPlayer()).preparadeToMakeFootBoard(player, ladderHeight)
+    func makeLadder(_ player: Int, _ playerName: [String], _ ladderHeight:Int) {
+        let readyFootBoard = LadderGame(height: ladderHeight, names: playerName).preparadeToMakeFootBoard(player, ladderHeight)
         for row in 0 ..< ladderHeight  {
             print ("|", terminator: "")
             makeWall(readyFootBoard[row], player)

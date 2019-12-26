@@ -13,7 +13,7 @@ func main() {
     let player = InputView().getPlayer()
     let countPlayer = player.count
     let ladderHeight = InputView().getLadderHeight()
-    ResultView().makeLadder(countPlayer, ladderHeight)
+    ResultView().makeLadder(countPlayer, player, ladderHeight)
 }
 main()
 

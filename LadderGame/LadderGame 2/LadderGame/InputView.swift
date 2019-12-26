@@ -10,17 +10,18 @@ import Foundation
 
 struct InputView {
     // 참여인원 입력 받기
-    func getPlayer() -> Array<String> {
+    func getPlayer() -> [String] {
         print("참여할 사람 이름을 입력하세요. (이름은 쉽표(,)로 구분하세요)")
         let player = readLine() ?? ""
         let names = player.split(separator: ",").map(String.init)
-        return names
+        
+        return names 
     }
     
     func playerCount() -> Int{
         let inputNames = getPlayer()
         let names = inputNames.split(separator: ",")
-        let countPlayer = names.count
+        let countPlayer = inputNames.count
         
         return countPlayer
     }

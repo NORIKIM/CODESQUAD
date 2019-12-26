@@ -11,7 +11,7 @@ import Foundation
 //높이와 참여자를 array로 포함
 struct LadderGame {
     var height = 0
-    var names:[LadderPlayer]
+    var names:[String]
     
     // 사다리 발판 준비 - 서브
     // false 값을 가지고 있는 배열을 랜덤값에 따라 랜덤하게 false를 true로 바꿈
