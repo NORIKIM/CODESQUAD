@@ -1,13 +1,14 @@
 ## 자판기 아이패드 앱
 
-**요구사항**
+[step1. 아이패드 앱](https://github.com/NORIKIM/CODESQUAD/blob/master/vendingmachineapp/step1.%EC%95%84%EC%9D%B4%ED%8C%A8%EB%93%9C%20%EC%95%B1.md)
 
-- 자판기의 기능과 화면을 아이패드용으로 구현
-  - 자판기의 음료 추가
-  - 음료 구매 시 해당 음료 재고 삭감
-  - 음료 구매 시 해당 음료 가격 만큼 잔액 소진
-  - 음료를 구매 할 수 있도록 잔액 증가
-- 화면에는 버튼,이미지뷰,레이블이 쓰임
+[step2. MVC패턴](https://github.com/NORIKIM/CODESQUAD/blob/master/vendingmachineapp/step2.MVC%ED%8C%A8%ED%84%B4.md)
+
+[step3. 자판기 기본동작](https://github.com/NORIKIM/CODESQUAD/blob/master/vendingmachineapp/step3.%EC%9E%90%ED%8C%90%EA%B8%B0%20%EA%B8%B0%EB%B3%B8%EB%8F%99%EC%9E%91.md)
+
+[step4.UI 및 동작 구현](https://github.com/NORIKIM/CODESQUAD/blob/master/vendingmachineapp/%EC%9E%90%ED%8C%90%EA%B8%B0%20UI%20%EB%B0%8F%20%EB%8F%99%EC%9E%91%20%EA%B5%AC%ED%98%84.md)
+
+
 
 **프로젝트를 마치고**
 
