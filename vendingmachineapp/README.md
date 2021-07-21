@@ -8,7 +8,7 @@
 
 [step4.UI 및 동작 구현](https://github.com/NORIKIM/CODESQUAD/blob/master/vendingmachineapp/%EC%9E%90%ED%8C%90%EA%B8%B0%20UI%20%EB%B0%8F%20%EB%8F%99%EC%9E%91%20%EA%B5%AC%ED%98%84.md)
 
-
+<br>
 
 **프로젝트를 마치고**
 
@@ -19,5 +19,7 @@
 특히 CollectionView에 대해 많이 공부했던 미션이다. 처음에 생각했던건 똑같은 기능을 하는 이미지와 버튼들을 굳이 음료 개수에 맞춰서 전부 스토리보드위에 올려줘야 할까라는 생각으로 시작되었고 이 문제를 해결 할 수있을거라는 확신이 있었다. 
 
 collectionView를 이용할 수 있다는 결과를 얻고 시간은 오래걸렸지만 아울렛들을 연결하고 필요한 개수만큼 보여줄 수 있도록 하고 addTarget과 delegate를 이용해보기도 하며 결국 미션을 해결할 수 있었다.
+
+<br>
 
 <img src="https://user-images.githubusercontent.com/31604976/69126733-35d60700-0aec-11ea-8a39-e6eb7a325fb3.png">
